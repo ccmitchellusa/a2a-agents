@@ -12,7 +12,7 @@ The following instructions walk through deploying some simple A2A-compliant agen
 * Orc: https://github.com/ccmitchellusa/orc-agent-a2a
 * Pirate: https://github.com/ccmitchellusa/pirate-agent-a2a 
 
-TODO: Create a DA to automate the following manual steps:
+TODO: Create terraform to automate the following manual steps:
 
 4. <a id="step4"></a>If you do not already have a Container Registry instance and Namespace in your account, set one up.  It will hold the images that Code Engine builds.
 
