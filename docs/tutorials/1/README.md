@@ -48,7 +48,7 @@ uvx a2a-cli <agent-server-url> chat
 
 18. Now, interact with the agent by sending it any prompts: ![](images/pirate-prompt.png)
 
-IMPORTANT!: Your agent’s are using your OpenAI API Key and are running on public unauthenticated endpoints for this tutorial, so any requests to these endpoints will incur charges for OpenAI tokens and possibly charges for Code Engine (if CE free usage quota limits are exceeded).  
-IMPORTANT: Ensure the LLM(s) you use is ok to process any data the agents will send to it from MCP Servers or other systems the agent will access! 
+IMPORTANT!: Your agent’s are using your OpenAI API Key and are running on public unauthenticated endpoints for this tutorial, so any requests to these endpoints will incur charges for OpenAI tokens and possibly charges for Code Engine (when free tier usage quota limits are exceeded).  You will want to either delete the agents in your Code Engine project so that charges don't accrue or take further steps to add access controls to protect the agent endpoints as a next step. 
 
-You will want to delete the agents in your Code Engine project, or take further steps to add access controls to protect the agent endpoints as a next step. 
+IMPORTANT!: Ensure the LLM(s) you use are safe for processing all data the agents will send to it.  The data can come from many places, eg. tools and MCP Servers. 
+
